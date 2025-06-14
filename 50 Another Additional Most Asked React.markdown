@@ -1,4 +1,3 @@
-```markdown
 # 50 Additional Most Asked React.js Interview Questions with Detailed Answers and Code Examples (Vanilla React)
 
 This document provides a fresh set of 50 commonly asked React.js interview questions, focusing on functional components and hooks in vanilla React.js, avoiding class components and Next.js-specific features. These questions range from beginner to advanced levels, designed for front-end developer interviews, complementing previous sets for comprehensive preparation. Examples use client-side rendering and libraries like `react-router-dom` for routing.

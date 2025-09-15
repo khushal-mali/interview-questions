@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Markdown Viewer - Dark Mode</title>
+
+    <!-- GitHub Markdown Dark CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown-dark.min.css"
+    />
+
+    <!-- Highlight.js Dark Theme -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css"
+    />
+
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        background-color: #0d1117;
+        color: #c9d1d9;
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+      }
+
+      .markdown-body {
+        background-color: #161b22;
+        color: #c9d1d9;
+        max-width: 800px;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+      }
+
+      pre {
+        overflow-x: auto;
+      }
+
+      a {
+        color: #58a6ff;
+      }
+    </style>
+  </head>
+  <body>
+    <article class="markdown-body" id="markdown-content">Loading...</article>
+
+    <!-- Marked.js -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- Highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+    <script>
+      // Configure marked to use highlight.js
+      marked.setOptions({
+        highlight: function (code, lang) {
+          if (lang && hljs.getLanguage(lang)) {
+            return hljs.highlight(code, { language: lang }).value;
+          } else {
+            return hljs.highlightAuto(code).value;
+          }
+        },
+      });
+
+      // Fetch and render the Markdown file
+      fetch("100_JavaScript_Questions.markdown")
+        .then((res) => res.text())
+        .then((md) => {
+          const html = marked.parse(md);
+          document.getElementById("markdown-content").innerHTML = html;
+          hljs.highlightAll();
+        })
+        .catch((err) => {
+          document.getElementById("markdown-content").textContent =
+            "Failed to load Markdown.";
+          console.error(err);
+        });
+    </script>
+  </body>
+</html>

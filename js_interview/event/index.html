@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      #card {
+        height: 200px;
+        width: 300px;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        padding: 8px 12px;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: 900;
+        border-radius: 10px;
+        border: black 2px solid;
+      }
+      #button {
+        width: fit-content;
+        align-self: flex-end;
+        margin-top: auto;
+        margin: auto 20px 20px 0;
+        padding: 8px 12px;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: 900;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>event_bubbling_&_capturing</h1>
+
+    <div id="card">
+      <p>This is the product card</p>
+      <button id="button">Add to cart</button>
+    </div>
+
+    <script src="event_bubbling_&_capturing.js"></script>
+  </body>
+</html>

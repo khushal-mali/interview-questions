@@ -1,0 +1,20 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#heading {
+  text-align: center;
+}
+
+#subHeading {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#countdown {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
+}

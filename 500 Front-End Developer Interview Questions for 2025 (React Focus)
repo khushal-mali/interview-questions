@@ -1,0 +1,600 @@
+# 500 Front-End Developer Interview Questions for 2025 (React Focus)
+
+This document provides a comprehensive list of 500 interview questions to prepare for a Front-End Developer role in 2025, with a focus on React for library-specific questions. The questions are organized into categories, covering foundational skills, advanced concepts, and practical applications.
+
+## Table of Contents
+1. [HTML](#html) (50 questions)
+2. [CSS](#css) (50 questions)
+3. [JavaScript](#javascript) (100 questions)
+4. [React](#react) (100 questions)
+5. [TypeScript](#typescript) (50 questions)
+6. [Performance Optimization](#performance-optimization) (30 questions)
+7. [Accessibility (a11y)](#accessibility-a11y) (30 questions)
+8. [Testing](#testing) (30 questions)
+9. [Build Tools and Dev Environment](#build-tools-and-dev-environment) (20 questions)
+10. [APIs and Networking](#apis-and-networking) (20 questions)
+11. [General Front-End Concepts](#general-front-end-concepts) (20 questions)
+12. [Behavioral and Situational Questions](#behavioral-and-situational-questions) (30 questions)
+13. [Coding Challenges](#coding-challenges) (20 questions)
+
+---
+
+## HTML
+1. What is the purpose of the `<!DOCTYPE html>` declaration?
+2. Explain the difference between `<div>` and `<section>` tags.
+3. What are semantic HTML elements, and why are they important?
+4. How does the `alt` attribute in an `<img>` tag improve accessibility?
+5. What is the difference between `id` and `class` attributes?
+6. Explain the purpose of the `data-` attribute in HTML.
+7. How do you make an HTML element focusable for keyboard navigation?
+8. What is the difference between `<article>` and `<aside>` elements?
+9. How does the `loading` attribute in `<img>` improve performance?
+10. What is the purpose of the `lang` attribute in the `<html>` tag?
+11. Explain the difference between block and inline elements.
+12. How do you handle forms in HTML to ensure accessibility?
+13. What is the `meta` tag, and what are some common uses?
+14. How does the `contenteditable` attribute work?
+15. What are HTML microdata, and when would you use them?
+16. Explain the `rel` attribute in the `<a>` tag.
+17. How do you embed a video in HTML5?
+18. What is the difference between `<script>` and `<script type="module">`?
+19. How does the `defer` attribute in `<script>` affect page loading?
+20. What are void elements in HTML?
+21. How do you create a custom HTML element using the Web Components API?
+22. What is the purpose of the `srcset` attribute in responsive images?
+23. How does the `picture` element differ from the `<img>` element?
+24. What is the role of the `role` attribute in ARIA?
+25. How do you ensure HTML is SEO-friendly?
+26. What is the `manifest` attribute in the `<html>` tag used for?
+27. Explain the difference between `hidden` attribute and CSS `display: none`.
+28. How do you handle cross-browser compatibility in HTML?
+29. What is the purpose of the `charset` attribute in the `<meta>` tag?
+30. How does the `async` attribute in `<script>` work?
+31. What are HTML entities, and why are they used?
+32. How do you implement lazy loading for iframes?
+33. What is the `figure` element, and when should you use it?
+34. How does the `tabindex` attribute affect keyboard navigation?
+35. What is the difference between `<b>` and `<strong>` tags?
+36. How do you create a responsive table in HTML?
+37. What is the purpose of the `scope` attribute in tables?
+38. How do you use the `template` element in HTML?
+39. What are the benefits of using the `main` element?
+40. How do you handle form validation in HTML5?
+41. What is the `dialog` element, and how is it used?
+42. How do you ensure HTML is secure against XSS attacks?
+43. What is the purpose of the `nonce` attribute in `<script>` tags?
+44. How does the `preload` value in the `rel` attribute work?
+45. What is the difference between `<meter>` and `<progress>` elements?
+46. How do you use the `details` and `summary` elements?
+47. What is the purpose of the `base` tag in HTML?
+48. How do you implement a favicon in HTML?
+49. What are the accessibility implications of using `<div>` for buttons?
+50. How do you structure HTML for a single-page application (SPA)?
+
+## CSS
+51. What is the CSS box model, and how does it work?
+52. Explain the difference between `relative`, `absolute`, and `fixed` positioning.
+53. How does the `z-index` property affect element stacking?
+54. What is the difference between `rem` and `em` units?
+55. How do you center an element horizontally and vertically in CSS?
+56. What are CSS custom properties (variables), and how are they used?
+57. Explain the specificity rules in CSS.
+58. What is the difference between `display: none` and `visibility: hidden`?
+59. How do you create a responsive layout using CSS Grid?
+60. What is the purpose of the `calc()` function in CSS?
+61. How do you implement a sticky header using CSS?
+62. What are media queries, and how are they used for responsive design?
+63. Explain the `flex` property in CSS Flexbox.
+64. How does the `gap` property work in Flexbox and Grid?
+65. What is the difference between `inline-block` and `inline` display?
+66. How do you create a CSS animation using `@keyframes`?
+67. What is the purpose of the `will-change` property?
+68. How do you handle browser-specific CSS prefixes?
+69. What is the difference between `transition` and `animation` in CSS?
+70. How do you create a gradient background in CSS?
+71. What is the `clip-path` property, and how is it used?
+72. How do you implement a dark mode using CSS?
+73. What are pseudo-classes and pseudo-elements in CSS?
+74. How does the `currentColor` keyword work in CSS?
+75. What is the purpose of the `aspect-ratio` property?
+76. How do you optimize CSS for performance?
+77. What is the `contain` property, and how does it improve rendering?
+78. How do you use the `:focus-within` pseudo-class?
+79. What is the difference between `margin` and `padding`?
+80. How do you create a CSS-only tooltip?
+81. What is the `object-fit` property, and when is it useful?
+82. How do you handle CSS resets or normalization?
+83. What is the `backdrop-filter` property, and how is it used?
+84. How do you create a masonry layout using CSS?
+85. What is the purpose of the `all` property in CSS?
+86. How do you use the `minmax()` function in CSS Grid?
+87. What are the benefits of using `vw` and `vh` units?
+88. How do you handle CSS for right-to-left (RTL) languages?
+89. What is the `place-items` shorthand in CSS Grid?
+90. How do you create a parallax scrolling effect with CSS?
+91. What is the difference between `transform` and `translate`?
+92. How do you use the `@supports` rule in CSS?
+93. What is the purpose of the `line-clamp` property?
+94. How do you create a sticky footer using CSS?
+95. What are the accessibility considerations for CSS animations?
+96. How do you use the `prefers-reduced-motion` media query?
+97. What is the `ch` unit, and when is it useful?
+98. How do you implement a hover effect that works on touch devices?
+99. What is the `scroll-snap` property, and how does it work?
+100. How do you optimize CSS for critical rendering path?
+
+## JavaScript
+101. What is the difference between `let`, `const`, and `var`?
+102. Explain the concept of closures in JavaScript.
+103. How does the `this` keyword work in JavaScript?
+104. What is the event loop, and how does it manage asynchronous code?
+105. Explain the difference between `null` and `undefined`.
+106. How do you handle errors in JavaScript using try/catch?
+107. What is the purpose of the `Promise` object?
+108. How does `async/await` simplify asynchronous programming?
+109. What is the difference between `map`, `filter`, and `reduce`?
+110. Explain the concept of hoisting in JavaScript.
+111. What are arrow functions, and how do they differ from regular functions?
+112. How do you create a deep copy of an object in JavaScript?
+113. What is the purpose of the `bind` method?
+114. Explain the difference between `call` and `apply` methods.
+115. What is a generator function, and how is it used?
+116. How does JavaScript handle prototypal inheritance?
+117. What is the `Symbol` data type, and when would you use it?
+118. How do you debounce a function in JavaScript?
+119. What is the difference between `setTimeout` and `setInterval`?
+120. How do you handle memory leaks in JavaScript?
+121. What is the purpose of the `WeakMap` object?
+122. Explain the difference between shallow and deep cloning.
+123. How do you use the `fetch` API to make HTTP requests?
+124. What is the purpose of the `Array.prototype.flat` method?
+125. How do you implement a throttle function in JavaScript?
+126. What is the `Proxy` object, and how is it used?
+127. How does JavaScript handle type coercion?
+128. What is the purpose of the `Object.defineProperty` method?
+129. How do you create a custom event in JavaScript?
+130. What is the difference between `forEach` and `for...of` loops?
+131. How do you use the `Set` object in JavaScript?
+132. What is the purpose of the `Reflect` API?
+133. How do you handle asynchronous iteration with `for await...of`?
+134. What is the difference between `==` and `===` operators?
+135. How do you implement a memoization function in JavaScript?
+136. What is the `Optional Chaining` operator (`?.`)?
+137. How do you use the `Nullish Coalescing` operator (`??`)?
+138. What is the purpose of the `BigInt` data type?
+139. How do you handle cross-origin requests in JavaScript?
+140. What is the `IntersectionObserver` API, and how is it used?
+141. How do you implement a polyfill for a JavaScript feature?
+142. What is the difference between `event.preventDefault` and `event.stopPropagation`?
+143. How do you use the `MutationObserver` API?
+144. What is the purpose of the `Object.entries` method?
+145. How do you handle browser storage (localStorage/sessionStorage)?
+146. What is the `async` attribute in JavaScript modules?
+147. How do you create a Promise-based delay function?
+148. What is the difference between `Array.prototype.includes` and `Array.prototype.indexOf`?
+149. How do you optimize JavaScript for large-scale applications?
+150. What is the purpose of the `Object.freeze` method?
+151. How do you handle internationalization (i18n) in JavaScript?
+152. What is the `Temporal` API, and how does it improve date handling?
+153. How do you implement a drag-and-drop feature in JavaScript?
+154. What is the difference between synchronous and asynchronous code?
+155. How do you use the `Web Workers` API for multithreading?
+156. What is the purpose of the `requestAnimationFrame` method?
+157. How do you handle form validation in JavaScript?
+158. What is the `Array.prototype.at` method, and how is it used?
+159. How do you implement a simple state machine in JavaScript?
+160. What is the purpose of the `WeakSet` object?
+161. How do you handle errors in asynchronous code?
+162. What is the difference between `Object.keys` and `Object.values`?
+163. How do you use the `navigator` object in JavaScript?
+164. What is the purpose of the `performance` API?
+165. How do you implement lazy loading for images in JavaScript?
+166. What is the difference between `slice` and `splice` methods?
+167. How do you use the `crypto` API for generating random numbers?
+168. What is the purpose of the `structuredClone` function?
+169. How do you handle event delegation in JavaScript?
+170. What is the `Map` object, and how does it differ from a regular object?
+171. How do you implement a custom iterator in JavaScript?
+172. What is the purpose of the `Object.seal` method?
+173. How do you handle browser compatibility for new JavaScript features?
+174. What is the `ResizeObserver` API, and how is it used?
+175. How do you optimize JavaScript for mobile devices?
+176. What is the difference between `call` and `apply` in terms of performance?
+177. How do you use the `Clipboard` API to copy text?
+178. What is the purpose of the `Array.prototype.groupBy` method?
+179. How do you implement a simple pub/sub system in JavaScript?
+180. What is the difference between `null` and `NaN`?
+181. How do you handle memory management in long-running JavaScript apps?
+182. What is the `Shadow DOM`, and how does it work?
+183. How do you use the `requestIdleCallback` method?
+184. What is the purpose of the `Object.getOwnPropertyDescriptors` method?
+185. How do you implement a custom promise chain?
+186. What is the difference between `let` and `const` in terms of scope?
+187. How do you handle feature detection in JavaScript?
+188. What is the purpose of the `Array.prototype.some` method?
+189. How do you implement a simple queue in JavaScript?
+190. What is the difference between `Function.prototype.bind` and arrow functions?
+191. How do you use the `History` API for client-side routing?
+192. What is the purpose of the `Object.is` method?
+193. How do you handle large datasets in JavaScript efficiently?
+194. What is the `Intl` API, and how is it used for formatting?
+195. How do you implement a carousel in JavaScript?
+196. What is the purpose of the `Array.prototype.every` method?
+197. How do you handle browser events like `resize` or `scroll` efficiently?
+198. What is the difference between `Array.prototype.concat` and spread operator?
+199. How do you implement a simple undo/redo system in JavaScript?
+200. What is the purpose of the `Object.create` method?
+
+## React
+201. What is React, and what are its key features?
+202. Explain the difference between functional and class components.
+203. What is the purpose of the `useState` hook?
+204. How does the `useEffect` hook work in React?
+205. What is the difference between controlled and uncontrolled components?
+206. How do you optimize React component rendering?
+207. What is the Virtual DOM, and how does React use it?
+208. Explain the concept of lifting state up in React.
+209. How do you handle forms in React?
+210. What is the purpose of the `useRef` hook?
+211. How does React's reconciliation process work?
+212. What are React fragments, and why are they useful?
+213. How do you implement conditional rendering in React?
+214. What is the difference between `useMemo` and `useCallback`?
+215. How do you manage global state in a React application?
+216. What is the purpose of the `Context` API in React?
+217. How do you handle side effects in a React functional component?
+218. What are React hooks, and why were they introduced?
+219. How do you implement lazy loading in React?
+220. What is the purpose of the `key` prop in React lists?
+221. How do you handle errors in React components?
+222. What is the difference between `React.memo` and `useMemo`?
+223. How do you use the `useReducer` hook for complex state management?
+224. What is server-side rendering (SSR) in React, and why is it used?
+225. How do you implement routing in a React application?
+226. What is the purpose of the `Suspense` component in React?
+227. How do you handle code splitting in React?
+228. What is the difference between `ReactDOM.render` and `ReactDOM.createRoot`?
+229. How do you use the `useContext` hook in React?
+230. What are the benefits of using React's concurrent rendering?
+231. How do you implement a custom hook in React?
+232. What is the purpose of the `forwardRef` function?
+233. How do you handle events in React components?
+234. What is the difference between `state` and `props` in React?
+235. How do you optimize a React app for performance?
+236. What is the `useTransition` hook, and how is it used?
+237. How do you handle authentication in a React application?
+238. What is the purpose of the `useImperativeHandle` hook?
+239. How do you implement a modal component in React?
+240. What is the difference between `React.StrictMode` and regular mode?
+241. How do you use React's `ErrorBoundary` component?
+242. What is the purpose of the `useLayoutEffect` hook?
+243. How do you handle dynamic imports in React?
+244. What is the difference between `useState` and `useReducer`?
+245. How do you implement a drag-and-drop feature in React?
+246. What is the purpose of the `React.Children` utilities?
+247. How do you handle form validation in a React application?
+248. What is the difference between client-side and server-side rendering in React?
+249. How do you use the `useDeferredValue` hook?
+250. What are React portals, and when would you use them?
+251. How do you implement a reusable form component in React?
+252. What is the purpose of the `useId` hook in React 18?
+253. How do you handle API calls in a React application?
+254. What is the difference between `useEffect` and `componentDidMount`?
+255. How do you implement a loading spinner in React?
+256. What is the purpose of the `useSyncExternalStore` hook?
+257. How do you handle responsive design in a React application?
+258. What is the difference between `React.PureComponent` and `React.Component`?
+259. How do you implement a custom form validation hook?
+260. What is the purpose of the `React.Profiler` component?
+261. How do you handle state persistence in a React app?
+262. What is the difference between `useEffect` and `useLayoutEffect`?
+263. How do you implement a theme switcher in React?
+264. What is the purpose of the `useDebugValue` hook?
+265. How do you handle file uploads in a React application?
+266. What is the difference between `ReactDOM.hydrate` and `ReactDOM.render`?
+267. How do you implement a carousel component in React?
+268. What is the purpose of the `React.cloneElement` method?
+269. How do you handle animations in a React application?
+270. What is the difference between `useState` and global state management?
+271. How do you implement a search filter in a React application?
+272. What is the purpose of the `useEffect` cleanup function?
+273. How do you handle keyboard events in React?
+274. What is the difference between `React.createElement` and JSX?
+275. How do you implement a tooltip component in React?
+276. What is the purpose of the `useCallback` hook in optimizing performance?
+277. How do you handle real-time data in a React app (e.g., WebSockets)?
+278. What is the difference between `React.Fragment` and `<>` syntax?
+279. How do you implement a multi-step form in React?
+280. What is the purpose of the `useMemo` hook in optimizing expensive calculations?
+281. How do you handle accessibility in React components?
+282. What is the difference between `useRef` and creating a regular variable?
+283. How do you implement a custom modal hook in React?
+284. What is the purpose of the `React.lazy` function?
+285. How do you handle cross-browser compatibility in React?
+286. What is the difference between `useState` and `useRef` for storing values?
+287. How do you implement a reusable table component in React?
+288. What is the purpose of the `React.use` hook (experimental)?
+289. How do you handle internationalization (i18n) in a React app?
+290. What is the difference between `ReactDOM.createPortal` and regular rendering?
+291. How do you implement a collapsible sidebar in React?
+292. What is the purpose of the `useTransition` hook in concurrent rendering?
+293. How do you handle large lists in React with virtualization?
+294. What is the difference between `useEffect` and event listeners?
+295. How do you implement a custom dropdown component in React?
+296. What is the purpose of the `React.StrictMode` component?
+297. How do you handle browser storage in a React application?
+298. What is the difference between `useMemo` and `React.memo`?
+299. How do you implement a paginated list in React?
+300. What is the purpose of the `useImperativeHandle` hook in advanced use cases?
+
+## TypeScript
+301. What is TypeScript, and how does it differ from JavaScript?
+302. How do you define a type in TypeScript?
+303. Explain the difference between `interface` and `type` in TypeScript.
+304. What is the purpose of the `any` type, and why should it be avoided?
+305. How do you use TypeScript with React components?
+306. What is the `unknown` type, and when is it useful?
+307. How do you handle union types in TypeScript?
+308. What is the purpose of the `never` type in TypeScript?
+309. How do you define a generic function in TypeScript?
+310. What is the difference between `extends` and `implements` in TypeScript?
+311. How do you use TypeScript's `Partial` utility type?
+312. What is the purpose of the `Record` utility type?
+313. How do you handle null safety in TypeScript?
+314. What is the `as` keyword in TypeScript, and when is it used?
+315. How do you define a type for a React component's props?
+316. What is the purpose of the `Pick` utility type?
+317. How do you use TypeScript with the `useState` hook in React?
+318. What is the difference between `type` and `interface` for defining objects?
+319. How do you handle discriminated unions in TypeScript?
+320. What is the purpose of the `Omit` utility type?
+321. How do you define a type for a function in TypeScript?
+322. What is the `keyof` operator, and how is it used?
+323. How do you use TypeScript with the `useEffect` hook?
+324. What is the purpose of the `Exclude` utility type?
+325. How do you handle TypeScript enums?
+326. What is the difference between `unknown` and `any` types?
+327. How do you use TypeScript with the `useRef` hook?
+328. What is the purpose of the `NonNullable` utility type?
+329. How do you define a type for an array in TypeScript?
+330. What is the `as const` assertion, and how is it used?
+331. How do you handle TypeScript with event handlers in React?
+332. What is the purpose of the `ReturnType` utility type?
+333. How do you use TypeScript with Redux?
+334. What is the difference between `type` and `interface` for generics?
+335. How do you handle TypeScript with asynchronous functions?
+336. What is the purpose of the `Required` utility type?
+337. How do you define a type for a React functional component?
+338. What is the `infer` keyword in TypeScript, and how is it used?
+339. How do you handle TypeScript with third-party libraries?
+340. What is the purpose of the `Extract` utility type?
+341. How do you use TypeScript with the `useContext` hook?
+342. What is the difference between `type` and `interface` for extending types?
+343. How do you handle TypeScript with class components in React?
+344. What is the purpose of the `ThisType` utility type?
+345. How do you define a type for a nested object in TypeScript?
+346. What is the `strictNullChecks` option in TypeScript?
+347. How do you use TypeScript with the `fetch` API?
+348. What is the purpose of the `Readonly` utility type?
+349. How do you handle TypeScript with custom hooks in React?
+350. What is the difference between `type` and `interface` for union types?
+
+## Performance Optimization
+351. What is the critical rendering path, and how do you optimize it?
+352. How do you reduce reflows and repaints in a web application?
+353. What is lazy loading, and how does it improve performance?
+354. How do you optimize images for web performance?
+355. What is the purpose of code splitting in a front-end application?
+356. How do you minimize JavaScript bundle size?
+357. What is tree shaking, and how does it work?
+358. How do you use browser caching to improve performance?
+359. What is the impact of render-blocking resources on page load?
+360. How do you optimize CSS for faster rendering?
+361. What is the purpose of the `defer` attribute in `<script>` tags?
+362. How do you implement lazy loading for React components?
+363. What is the role of service workers in performance optimization?
+364. How do you optimize font loading in a web application?
+365. What is the purpose of the `IntersectionObserver` API in performance?
+366. How do you reduce the number of DOM elements for better performance?
+367. What is the impact of CSS animations on performance?
+368. How do you use WebP images to improve performance?
+369. What is the purpose of the `will-change` CSS property?
+370. How do you optimize React apps for server-side rendering?
+371. What is the role of CDN in improving web performance?
+372. How do you handle large datasets in a front-end application?
+373. What is the purpose of the `requestIdleCallback` API?
+374. How do you optimize JavaScript execution time?
+375. What is the impact of third-party scripts on performance?
+376. How do you use the `preload` and `prefetch` resource hints?
+377. What is the purpose of the `performance` API in optimization?
+378. How do you optimize React's reconciliation process?
+379. What is the role of memoization in performance optimization?
+380. How do you measure and improve Time to First Byte (TTFB)?
+
+## Accessibility (a11y)
+381. What is web accessibility, and why is it important?
+382. How do you ensure keyboard navigation in a web application?
+383. What is the purpose of the `aria-label` attribute?
+384. How do you make a form accessible to screen readers?
+385. What is the difference between `aria-hidden` and `hidden` attributes?
+386. How do you handle focus management in a single-page application?
+387. What is the purpose of the `role` attribute in ARIA?
+388. How do you ensure sufficient color contrast for accessibility?
+389. What are the WCAG guidelines, and how do they apply to front-end development?
+390. How do you make images accessible to screen readers?
+391. What is the purpose of the `aria-live` attribute?
+392. How do you handle dynamic content updates for accessibility?
+393. What is the difference between `tabindex="0"` and `tabindex="-1"`?
+394. How do you make a modal dialog accessible?
+395. What is the purpose of the `aria-describedby` attribute?
+396. How do you ensure accessible navigation menus?
+397. What is the role of the `lang` attribute in accessibility?
+398. How do you handle focus trapping in a modal?
+399. What is the purpose of the `aria-current` attribute?
+400. How do you make a carousel component accessible?
+401. What is the difference between semantic and non-semantic HTML for accessibility?
+402. How do you test a web application for accessibility?
+403. What is the purpose of the `aria-controls` attribute?
+404. How do you handle accessible error messages in forms?
+405. What is the role of the `prefers-reduced-motion` media query in accessibility?
+406. How do you make a table accessible to screen readers?
+407. What is the purpose of the `aria-expanded` attribute?
+408. How do you ensure accessible tooltips in a web application?
+409. What is the role of the `aria-labelledby` attribute?
+410. How do you handle accessibility in a React application?
+
+## Testing
+411. What is the difference between unit testing and integration testing?
+412. How do you write a unit test for a React component?
+413. What is the purpose of Jest in testing React applications?
+414. How do you mock API calls in Jest?
+415. What is the role of the React Testing Library?
+416. How do you test a custom hook in React?
+417. What is snapshot testing, and when is it useful?
+418. How do you handle asynchronous tests in Jest?
+419. What is the difference between `describe` and `it` in Jest?
+420. How do you test event handlers in a React component?
+421. What is the purpose of the `act` function in React Testing Library?
+422. How do you test accessibility in a web application?
+423. What is the role of Enzyme in testing React applications?
+424. How do you mock a module in Jest?
+425. What is the purpose of code coverage in testing?
+426. How do you test a Redux-connected component?
+427. What is the difference between shallow and mount rendering in Enzyme?
+428. How do you handle end-to-end testing with Cypress?
+429. What is the purpose of the `data-testid` attribute in testing?
+430. How do you test a form submission in React?
+431. What is the role of mocking in unit tests?
+432. How do you test a component with context in React?
+433. What is the purpose of the `beforeEach` and `afterEach` hooks in Jest?
+434. How do you test a component with TypeScript types?
+435. What is the difference between TDD and BDD in testing?
+436. How do you handle performance testing for a front-end application?
+437. What is the purpose of the `screen` object in React Testing Library?
+438. How do you test a component with dynamic imports?
+439. What is the role of Playwright in end-to-end testing?
+440. How do you ensure test reliability in a CI/CD pipeline?
+
+## Build Tools and Dev Environment
+441. What is the purpose of Webpack in a front-end project?
+442. How do you configure a basic Webpack setup for React?
+443. What is the role of Babel in modern JavaScript development?
+444. How do you set up ESLint in a React project?
+445. What is the purpose of Vite as a build tool?
+446. How do you optimize a Webpack build for production?
+447. What is the role of package.json in a front-end project?
+448. How do you configure Prettier for consistent code formatting?
+449. What is the purpose of a `.gitignore` file?
+450. How do you set up a TypeScript project with React?
+451. What is the difference between development and production builds?
+452. How do you handle environment variables in a React project?
+453. What is the purpose of the `tsconfig.json` file in TypeScript?
+454. How do you use Yarn or npm for dependency management?
+455. What is the role of a linter in maintaining code quality?
+456. How do you configure a CI/CD pipeline for a front-end project?
+457. What is the purpose of the `vite.config.js` file in Vite?
+458. How do you handle hot module replacement (HMR) in development?
+459. What is the difference between CommonJS and ES Modules?
+460. How do you optimize a front-end build for faster deployment?
+
+## APIs and Networking
+461. How do you make an API call using the `fetch` API?
+462. What is the difference between GET and POST requests?
+463. How do you handle CORS in a front-end application?
+464. What is the purpose of the `Content-Type` header in HTTP requests?
+465. How do you implement pagination in an API-driven React app?
+466. What is the role of GraphQL in front-end development?
+467. How do you handle authentication in API requests?
+468. What is the difference between REST and GraphQL APIs?
+469. How do you handle errors in API calls?
+470. What is the purpose of the `Authorization` header?
+471. How do you implement real-time updates with WebSockets?
+472. What is the role of the `axios` library in API requests?
+473. How do you handle rate limiting in API calls?
+474. What is the purpose of the `ETag` header in HTTP?
+475. How do you cache API responses in a front-end app?
+476. What is the difference between JSON and XML in API responses?
+477. How do you handle file uploads in an API request?
+478. What is the purpose of the `Accept` header in HTTP?
+479. How do you implement retry logic for failed API calls?
+480. What is the role of the `useSWR` hook in React for data fetching?
+
+## General Front-End Concepts
+481. What is the difference between SPA and MPA?
+482. How do you handle browser compatibility in front-end development?
+483. What is the purpose of a design system in front-end projects?
+484. How do you approach responsive design in 2025?
+485. What is the role of progressive enhancement in web development?
+486. How do you handle cross-browser testing?
+487. What is the difference between client-side and server-side rendering?
+488. How do you ensure a consistent user experience across devices?
+489. What is the purpose of a component library in front-end development?
+490. How do you approach debugging a front-end application?
+491. What is the role of version control (e.g., Git) in front-end projects?
+492. How do you handle state management in large-scale applications?
+493. What is the purpose of a style guide in front-end development?
+494. How do you approach mobile-first development?
+495. What is the role of micro-frontends in modern web development?
+496. How do you handle SEO in a single-page application?
+497. What is the difference between synchronous and asynchronous rendering?
+498. How do you ensure security in a front-end application?
+499. What is the role of feature flags in front-end development?
+500. How do you stay updated with the latest front-end trends in 2025?
+
+## Behavioral and Situational Questions
+501. Describe a challenging front-end project you worked on and how you overcame obstacles.
+502. How do you approach learning a new front-end framework or tool?
+503. How do you handle disagreements with a designer over UI implementation?
+504. Describe a time when you optimized a slow-performing web application.
+505. How do you prioritize tasks in a fast-paced development environment?
+506. How do you handle a situation where a browser bug affects your application?
+507. Describe a time when you improved the accessibility of a web application.
+508. How do you approach code reviews as a front-end developer?
+509. How do you handle tight deadlines for a front-end project?
+510. Describe a time when you mentored a junior developer.
+511. How do you ensure your code is maintainable for other developers?
+512. Describe a situation where you had to balance performance and feature development.
+513. How do you handle feedback on your front-end code?
+514. Describe a time when you debugged a complex front-end issue.
+515. How do you approach collaborating with back-end developers?
+516. Describe a time when you implemented a feature based on user feedback.
+517. How do you stay motivated when working on repetitive tasks?
+518. Describe a time when you had to refactor a large codebase.
+519. How do you handle conflicting priorities in a project?
+520. Describe a time when you introduced a new tool or process to your team.
+521. How do you approach estimating time for front-end tasks?
+522. Describe a situation where you improved the user experience of an application.
+523. How do you handle a situation where a feature is not feasible to implement?
+524. Describe a time when you worked on a cross-functional team.
+525. How do you ensure your code aligns with design specifications?
+526. Describe a time when you resolved a conflict within your development team.
+527. How do you approach writing documentation for your code?
+528. Describe a time when you had to learn a new technology quickly for a project.
+529. How do you handle a situation where a stakeholder changes requirements mid-project?
+530. Describe a time when you contributed to improving team productivity.
+
+## Coding Challenges
+531. Write a function to debounce an input handler in JavaScript.
+532. Create a responsive navigation bar using HTML and CSS.
+533. Implement a simple todo list in React with TypeScript.
+534. Write a function to deep clone an object in JavaScript.
+535. Create a CSS-only modal popup with animations.
+536. Implement a search filter for a list of items in React.
+537. Write a function to throttle a scroll event handler in JavaScript.
+538. Create a responsive grid layout using CSS Grid.
+539. Implement a counter component in React with `useReducer`.
+540. Write a function to flatten a nested array in JavaScript.
+541. Create a form with validation in React using a custom hook.
+542. Implement a drag-and-drop list in React.
+543. Write a function to reverse a string in JavaScript without using built-in methods.
+544. Create a carousel component in React with accessibility features.
+545. Implement a dark mode toggle in React with localStorage.
+546. Write a function to check if two strings are anagrams in JavaScript.
+547. Create a reusable button component in React with TypeScript.
+548. Implement a paginated list in React with API integration.
+549. Write a function to find the intersection of two arrays in JavaScript.
+550. Create a multi-step form in React with validation and navigation.
+
+---
+
+This list of 500 questions covers a wide range of topics and scenarios to prepare for a Front-End Developer interview in 2025, with a focus on React. Use these questions to practice technical concepts, coding challenges, and behavioral responses to build confidence and expertise.

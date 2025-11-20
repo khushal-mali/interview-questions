@@ -7,7 +7,7 @@ Why hoisting exists ? - Because JS has to allocate memory for variables.
 var a = 10;
 
 // ;) ////////////////////////////////
-// test();
+// test?.();
 // console.log(test);
 
 var test = function () {
@@ -18,12 +18,12 @@ var test = function () {
 var x = 10;
 
 function printX() {
-  // console.log(x);
+  console.log(x);
   var x = 20;
-  // console.log(x);
+  console.log(x);
 }
 
-printX();
+// printX();
 // console.log(x);
 
 // ;) ////////////////////////////////
@@ -41,22 +41,23 @@ while (y < 5) {
 function show() {
   if (true) {
     console.log(p);
-    // var p will be hoisted in show() function because it is function scoped. it won't be accessible outside of the scope
+    // var p will be hoisted in show() function because it is function scoped. it won't be accessible outside of the scope.
     var p = 2;
     console.log(p);
   }
   console.log(p);
 }
 
-// show();
-// console.log(p);
+show();
+console.log(p);
 
 // ;) //////////////////////////////////
 var pname = "name 1";
+
 function print() {
   pname = "name 2";
   if (1 === 2) {
-    // This line will create new var pname for print function using hoisting and pname will be seperate from pname which is outside of print function
+    // This line will create new var pname for print function using hoisting and pname will be seperate from pname which is outside of print function, Because var is function scoped.
     var pname = "name 3";
   }
 }

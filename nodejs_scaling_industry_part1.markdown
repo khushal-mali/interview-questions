@@ -8,7 +8,7 @@ This document provides detailed answers to the first 50 of 100 scenario-based qu
 3. **Microservices Architecture**
 4. **Containerization and Orchestration**
 5. **CI/CD Pipelines**
-6. **Monitoring and Logging**
+6. **Monitoring and Logging** 
 7. **Security**
 8. **High Availability and Fault Tolerance**
 9. **Performance Optimization**

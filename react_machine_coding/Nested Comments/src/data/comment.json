@@ -1,0 +1,168 @@
+[
+  {
+    "id": 1,
+    "content": "This project looks really impressive. Great job on the UI and performance!",
+    "votes": 12,
+    "timestamp": "2025-12-15T10:30:00Z",
+    "edited": false,
+    "replies": [
+      {
+        "id": 2,
+        "content": "Thanks! I spent a lot of time optimizing re-renders and bundle size.",
+        "votes": 6,
+        "timestamp": "2025-12-15T10:45:00Z",
+        "edited": false,
+        "replies": [
+          {
+            "id": 3,
+            "content": "Did you use memoization or virtualization for lists?",
+            "votes": 3,
+            "timestamp": "2025-12-15T11:00:00Z",
+            "edited": false,
+            "replies": [
+              {
+                "id": 4,
+                "content": "Yes, React.memo and windowing for long lists.",
+                "votes": 4,
+                "timestamp": "2025-12-15T11:10:00Z",
+                "edited": false,
+                "replies": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "content": "Can you explain how authentication is handled in this app?",
+    "votes": 8,
+    "timestamp": "2025-12-15T12:00:00Z",
+    "edited": false,
+    "replies": [
+      {
+        "id": 6,
+        "content": "Authentication is done using JWT with refresh tokens.",
+        "votes": 5,
+        "timestamp": "2025-12-15T12:10:00Z",
+        "edited": false,
+        "replies": [
+          {
+            "id": 7,
+            "content": "Are tokens stored in localStorage or cookies?",
+            "votes": 4,
+            "timestamp": "2025-12-15T12:20:00Z",
+            "edited": false,
+            "replies": [
+              {
+                "id": 8,
+                "content": "Access tokens in memory and refresh tokens in httpOnly cookies.",
+                "votes": 7,
+                "timestamp": "2025-12-15T12:30:00Z",
+                "edited": false,
+                "replies": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "content": "I faced an issue when submitting the form multiple times quickly.",
+    "votes": 10,
+    "timestamp": "2025-12-15T13:00:00Z",
+    "edited": false,
+    "replies": [
+      {
+        "id": 10,
+        "content": "Thanks for reporting. It seems like a missing debounce.",
+        "votes": 6,
+        "timestamp": "2025-12-15T13:10:00Z",
+        "edited": false,
+        "replies": [
+          {
+            "id": 11,
+            "content": "You can also disable the submit button while loading.",
+            "votes": 5,
+            "timestamp": "2025-12-15T13:20:00Z",
+            "edited": false,
+            "replies": [
+              {
+                "id": 12,
+                "content": "Good suggestion, I’ll add a loading state.",
+                "votes": 4,
+                "timestamp": "2025-12-15T13:30:00Z",
+                "edited": false,
+                "replies": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "content": "Is this app using server-side rendering or client-side rendering?",
+    "votes": 7,
+    "timestamp": "2025-12-15T14:00:00Z",
+    "edited": false,
+    "replies": [
+      {
+        "id": 14,
+        "content": "It’s using Next.js with a mix of SSR and ISR.",
+        "votes": 9,
+        "timestamp": "2025-12-15T14:10:00Z",
+        "edited": false,
+        "replies": [
+          {
+            "id": 15,
+            "content": "That should help a lot with SEO and initial load time.",
+            "votes": 6,
+            "timestamp": "2025-12-15T14:20:00Z",
+            "edited": false,
+            "replies": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "content": "What database did you choose and why?",
+    "votes": 11,
+    "timestamp": "2025-12-15T15:00:00Z",
+    "edited": false,
+    "replies": [
+      {
+        "id": 17,
+        "content": "PostgreSQL for relational data and strong consistency.",
+        "votes": 8,
+        "timestamp": "2025-12-15T15:10:00Z",
+        "edited": false,
+        "replies": [
+          {
+            "id": 18,
+            "content": "Are you using any ORM?",
+            "votes": 4,
+            "timestamp": "2025-12-15T15:20:00Z",
+            "edited": false,
+            "replies": [
+              {
+                "id": 19,
+                "content": "Yes, Prisma for type safety and migrations.",
+                "votes": 9,
+                "timestamp": "2025-12-15T15:30:00Z",
+                "edited": false,
+                "replies": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
